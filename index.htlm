@@ -5,29 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>week4</title>
+    <title>week5</title>
     <link rel="stylesheet" href="assect/styltes/stylescss">
 </head>
 <header>
-    <div>
-        <div class="header">
-            <div class="menu_container">
-                <div class="menu_block">Women</div>
-                <div class="menu_block">Men</div>
-                <div class="menu_block">OV Kids</div>
-            </div>
+    <div class="header">
+        <div class="menu_container">
+            <div class="menu_block">Women</div>
+            <div class="menu_block">Men</div>
+            <div class="menu_block">OV Kids</div>
             <div class="text">Outdoor Voices</div>
             <div class="container_icon">
-                <img src="assect/img/Vector.png" alt="иконка">
-                <img src="assect/img/Vectoron.png">
-                <img src="assect/img/Vectorto.png">
+                <img src="assect/img/Vector.png">
+                <img src="assect/img/Groupon.png">
+                <img src="assect/img/Group.png">
             </div>
         </div>
-    </div>
 </header>
-<main class="container_main" style="background-image: url(assect/img/Rectangle.png);">
-    <!-- <img src="assect/img/Rectangle.png" style="width:100%" > -->
+
+<img src="assect/img/Rectangle.png" class="first" />
+<main class="maincontainer">
     <div class="h1">Explore your <br> playground</div>
     <div class="h2">Our new Outdoors collection is built to keep <br> you Doing Things when the going gets chilly.</div>
-    </div>
 </main>
+<section>
+    <h1>This just in.</h1>
+    <div class="spring"></div>
+    <button>Shop — New Arrivals</button>
+</section>
+<section>
+    <div class="springsorman">
+    </div>
+    <img src="assect/img/Rectangleman.png">
+    <img src="assect/img/Rectanglewom.png">
+</section>

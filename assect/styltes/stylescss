@@ -1,50 +1,61 @@
-* {
-    margin: 0 border:0
+body {
+    margin: 0;
 }
 
 header {
-    display: flex;
-    justify-content: baseline;
-    height: 50px;
-    background-color: bisque;
+    text-align: center;
 
 }
 
 .menu_container {
-    display: inline-flex;
-    justify-content: space-between;
-
-}
-
-.header {
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-.menu_block {
+    /* border: 1px solid black; */
+    display: flex;
     padding: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+
 }
 
 .text {
-    padding: 20px;
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 10px;
 
+}
+
+.menu_block {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 5px;
+    align-self: flex-end;
 }
 
 .container_icon {
-    padding: 20px;
+    display: flex;
+    padding: 10px;
 }
 
-.container_main {
-    display: inline-flex;
-    width: 90vw;
-    height: 120vh;
+
+.first {
+    z-index: -100;
+    position: absolute;
+    width: 100vw;
+}
+
+.maincontainer {
+    display: flex;
     flex-direction: column;
-    text-align: right;
-    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 810px;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 60px;
 }
 
 .h1 {
-    padding: 20px;
+    padding: 40px;
     font: "Roboto";
     font-size: 66px;
     color: rgba(255, 255, 255, 1)
@@ -55,4 +66,28 @@ header {
     font: "Roboto";
     font-size: 24px;
     color: #FFFFFF;
+}
+
+section {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 70px;
+
+}
+
+.spring {
+    border: 1px solid none;
+    width: 800px;
+}
+
+button {
+    border-radius: 24px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    width: 248px;
+    height: 48px;
+}
+
+.springsorman {
+    width: 100px;
 }
